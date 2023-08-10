@@ -1,0 +1,27 @@
+[
+  {
+    "fname": "user",
+    "lname": " 1",
+    "email": "user@1",
+    "pass": "12345678",
+    "cpass": ""
+  },
+  {
+    "fname": "amjed",
+    "lname": "amjed",
+    "email": "amjed@gmail.com",
+    "pass": "12345678"
+  },
+  {
+    "fname": "amjed ",
+    "lname": "manu",
+    "email": "amjed@dom.in",
+    "pass": "amjedmanu"
+  },
+  {
+    "fname": "amjed",
+    "lname": "p",
+    "email": "amjedp@gmail.com",
+    "pass": "12345678"
+  }
+]

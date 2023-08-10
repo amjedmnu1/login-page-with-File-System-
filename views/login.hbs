@@ -1,0 +1,27 @@
+<div class="main container">
+
+    <div class="log-div">
+
+        <div class="">
+            <form id="form1" action="./login" method="post" class="log-div-1" required>
+                <label for="">Email</label>
+                <input type="email" value="{{old.email}}" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    class="inputStyle" name="email" required>
+                <p class="h6 text-danger">{{v.email}}</p>
+                <label for="">Password</label>
+                <input type="password" value="{{old.pass}}" minlength="8" class="inputStyle" name="pass" required>
+                <p class="h6 text-danger">{{v.pass}}</p>
+                <p class="h6 mt-3">don't have an account <a href="/signup">Creat new account </a></p>
+                <input type="submit" value="login" class="Sbut">
+            </form>
+            {{!-- <div class="d-flex justify-content-around">
+                <div>google</div>
+                <div>Mata</div>
+                <div>Gethub</div>
+            </div> --}}
+        </div>
+
+
+
+    </div>
+</div>

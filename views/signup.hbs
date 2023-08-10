@@ -1,0 +1,31 @@
+
+    <div class="main container">
+
+        <div class="log-div shadow " style="height:550px ;">
+
+            <div class="">
+                <form id="form1" action="./signup" method="post" class="log-div-1">
+                    <div class="d-flex">
+                        <span>
+                            <p for="">Fname</p>
+                            <input type="text" class="col-11 inputStyle " name="fname" id="">
+                            
+                        </span>
+                         <span>
+                            <p for="">Lname</p>
+                            <input type="text" class="col-11 inputStyle" name="lname" id="">
+                         </span>
+                    </div>
+                  
+                    <label for="">Email</label>
+                    <input type="email"   class="inputStyle" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="">
+                    <label for="">Password</label>
+                    <input type="password"  class="inputStyle" name="pass" minlength="8" required>
+                    <p class="h6">I have an account <a href="/">login</a></p>
+                    <p class="h6" style="color: red;">{{data}}</p>
+                    <input type="submit" value="Sign up" class="Sbut">
+                </form>
+
+            </div>
+        </div>
+    </div>
